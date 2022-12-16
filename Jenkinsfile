@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('buid') {
       steps {
-        sh 'echo "$date"'
+        sh 'echo "$(date)"'
       }
     }
 
